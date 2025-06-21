@@ -119,7 +119,7 @@ export default function MatarAliensGame() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="flex gap-2 mb-4">
+            <div className="flex gap-2 mb-4 flex-col">
               <Button onClick={addPlayer} disabled={players.length >= 8} className="flex items-center gap-2">
                 <UserPlus className="h-4 w-4" />
                 Agregar Jugador
